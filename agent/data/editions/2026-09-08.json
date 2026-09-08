@@ -1,0 +1,254 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T14:59:29.191751Z",
+  "model": "claude-sonnet-4-5",
+  "stories": [
+    {
+      "slot": "market",
+      "headline": "Mistral just raised \u20ac3B at a \u20ac21B valuation",
+      "blurb": "The French AI lab closed a \u20ac3 billion Series D led by Samsung, Scaleup Europe, and PSG Equity. The round values Mistral at \u20ac21 billion \u2014 a signal that 'sovereign AI' (models built outside Big Tech's orbit) is becoming a serious market category with serious capital behind it.",
+      "why_it_matters": "European AI is now funded like a tier-1 competitor to OpenAI and Anthropic",
+      "source_name": "TechCrunch \u2014 AI",
+      "source_url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "tier": 1,
+      "original_headline": "Mistral raises \u20ac3B as sovereign AI becomes big business",
+      "fingerprint": "331d3d4118052ae9"
+    },
+    {
+      "slot": "market",
+      "headline": "Qualcomm will build custom AI chips for Amazon's data centers",
+      "blurb": "The smartphone chip giant signed a multi-generation deal to supply Amazon with data center processors, marking Qualcomm's biggest push into AI infrastructure. Amazon also gets the option to buy up to $4 billion in Qualcomm shares.",
+      "why_it_matters": "Qualcomm is betting its chip design chops can compete with Nvidia in cloud AI hardware.",
+      "source_name": "Bloomberg Technology",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-08/qualcomm-signs-deal-to-provide-amazon-with-custom-ai-chips",
+      "tier": 1,
+      "original_headline": "Qualcomm Signs Deal to Provide Amazon With Custom AI Chips",
+      "fingerprint": "ad791a7357589b9d"
+    },
+    {
+      "slot": "build",
+      "headline": "DeepMind just mapped what happens when you change any letter in human DNA",
+      "blurb": "AlphaGenome Atlas predicts the molecular effects of all 9 billion possible single-letter DNA changes across the human genome. It's a reference map researchers can use to understand which genetic variants might cause disease and which are harmless\u2014without running wet-lab experiments for each one.",
+      "why_it_matters": "Turns genetic diagnosis from experimental guesswork into a lookup table.",
+      "source_name": "Google DeepMind Blog",
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "tier": 1,
+      "original_headline": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "fingerprint": "6e4c4a5f846b1bee"
+    },
+    {
+      "slot": "market",
+      "headline": "Runway just hit $200M in revenue selling AI video to marketers",
+      "blurb": "The AI video startup crossed $200 million in annual recurring revenue in September, driven by companies using its tools to generate marketing materials and ads. That's real enterprise traction for generative video beyond demos and side projects.",
+      "why_it_matters": "AI video tools are becoming production infrastructure, not just experiments.",
+      "source_name": "Bloomberg Technology",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-08/ai-startup-runway-hits-200-million-in-annual-recurring-revenue",
+      "tier": 1,
+      "original_headline": "AI Startup Runway Hits $200 Million in Annual Recurring Revenue",
+      "fingerprint": "f2bd0a805f89d3f7"
+    },
+    {
+      "slot": "industry",
+      "headline": "Google gets $1.9 billion federal loan to restart a dead Iowa nuclear reactor",
+      "blurb": "A U.S. regulator approved nearly $2 billion to bring a shuttered Iowa nuclear plant back online \u2014 power that will flow directly to Google's AI data centers. It's the first major federal loan backing nuclear energy specifically for tech company AI infrastructure.",
+      "why_it_matters": "Big Tech is now getting government-backed nuclear power to feed AI's energy demands.",
+      "source_name": "Engadget \u2014 AI",
+      "source_url": "https://www.engadget.com/2252521/us-regulator-approves-1-9-billion-loan-to-spin-up-iowas-dead-nuclear-reactor-for-google/",
+      "tier": 1,
+      "original_headline": "US regulator approves $1.9 billion loan to spin up Iowa's dead nuclear reactor for Google",
+      "fingerprint": "adf12542b0365ead"
+    },
+    {
+      "slot": "everyday",
+      "headline": "Claude can now send your emails if you let it",
+      "blurb": "Anthropic's AI assistant can now draft and send emails through Gmail with your permission. You can set it to ask for approval before hitting send, so you review everything before it goes out. It works through Claude's computer use feature that lets it interact with apps on your behalf.",
+      "why_it_matters": "AI agents are moving from answering questions to actually doing things in your inbox.",
+      "source_name": "Engadget \u2014 AI",
+      "source_url": "https://www.engadget.com/2249396/how-to-let-claude-send-emails/",
+      "tier": 1,
+      "original_headline": "How to let Claude send emails for you",
+      "fingerprint": "2cc6349b18eb5b4c"
+    }
+  ],
+  "try_this_prompt": {
+    "title": "The priority collision detector",
+    "kicker": "",
+    "prompt": "I'll list everything I'm supposed to be focusing on this quarter. Don't affirm them all or ask me to rank them. Instead, tell me which two are structurally incompatible \u2014 where succeeding at one makes the other nearly impossible \u2014 and force me to pick one to actually deprioritize.",
+    "tool_hint": "When your roadmap looks achievable until you try to execute all of it at once."
+  },
+  "daily_question": "If you could give an AI agent one permission you're currently too nervous to grant, what would it be?",
+  "notes": [
+    "mode: agent"
+  ],
+  "agent_trace": [
+    {
+      "ts": 1788879504.378668,
+      "role": "system",
+      "kind": "handoff",
+      "name": "",
+      "args": null,
+      "result_summary": "ranked=20, enriched=17, gaps=[]",
+      "tool_use_id": ""
+    },
+    {
+      "ts": 1788879532.6246245,
+      "role": "editor",
+      "kind": "tool_call",
+      "name": "pick",
+      "args": {
+        "id": 12,
+        "persona": "market",
+        "reason": "Lead story: Mistral's \u20ac3B raise at \u20ac21B valuation is the biggest AI funding story today, with sovereign AI becoming a major market force. Samsung and European backers signal geopolitical shift in AI investment."
+      },
+      "result_summary": "",
+      "tool_use_id": "toolu_012dxWbcoEiDZsCtrwnGoUyP"
+    },
+    {
+      "ts": 1788879532.6247036,
+      "role": "editor",
+      "kind": "tool_result",
+      "name": "pick",
+      "args": null,
+      "result_summary": "{\"ok\": true, \"picked\": \"Mistral raises \\u20ac3B as sovereign AI becomes big business\", \"persona\": \"market\", \"pick_count\": 1}",
+      "tool_use_id": "toolu_012dxWbcoEiDZsCtrwnGoUyP"
+    },
+    {
+      "ts": 1788879532.6247408,
+      "role": "editor",
+      "kind": "tool_call",
+      "name": "pick",
+      "args": {
+        "id": 122,
+        "persona": "market",
+        "reason": "Major strategic partnership: Qualcomm signs multi-generation deal to supply custom AI chips to Amazon's data centers, marking smartphone chip giant's expansion into AI infrastructure."
+      },
+      "result_summary": "",
+      "tool_use_id": "toolu_01LxiLXxK43xPJ2JPUHxFj3x"
+    },
+    {
+      "ts": 1788879532.624782,
+      "role": "editor",
+      "kind": "tool_result",
+      "name": "pick",
+      "args": null,
+      "result_summary": "{\"ok\": true, \"picked\": \"Qualcomm Signs Deal to Provide Amazon With Custom AI Chips\", \"persona\": \"market\", \"pick_count\": 2}",
+      "tool_use_id": "toolu_01LxiLXxK43xPJ2JPUHxFj3x"
+    },
+    {
+      "ts": 1788879532.6248014,
+      "role": "editor",
+      "kind": "tool_call",
+      "name": "pick",
+      "args": {
+        "id": 5,
+        "persona": "build",
+        "reason": "Groundbreaking science: Google DeepMind's AlphaGenome Atlas maps molecular effects of 9 billion DNA variants across the human genome - massive predictive capability for genomics research."
+      },
+      "result_summary": "",
+      "tool_use_id": "toolu_01WQAEhF4JckpGD6EYhDyzUU"
+    },
+    {
+      "ts": 1788879532.6248565,
+      "role": "editor",
+      "kind": "tool_result",
+      "name": "pick",
+      "args": null,
+      "result_summary": "{\"ok\": true, \"picked\": \"AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome\", \"persona\": \"build\", \"pick_count\": 3}",
+      "tool_use_id": "toolu_01WQAEhF4JckpGD6EYhDyzUU"
+    },
+    {
+      "ts": 1788879532.6248727,
+      "role": "editor",
+      "kind": "tool_call",
+      "name": "pick",
+      "args": {
+        "id": 119,
+        "persona": "market",
+        "reason": "Video AI momentum: Runway hits $200M ARR milestone, showing strong commercial adoption of AI video generation for marketing and creative production."
+      },
+      "result_summary": "",
+      "tool_use_id": "toolu_019YRRiFrR8jWXka1dg5wzTq"
+    },
+    {
+      "ts": 1788879532.6249251,
+      "role": "editor",
+      "kind": "tool_result",
+      "name": "pick",
+      "args": null,
+      "result_summary": "{\"ok\": true, \"picked\": \"AI Startup Runway Hits $200 Million in Annual Recurring Revenue\", \"persona\": \"market\", \"pick_count\": 4}",
+      "tool_use_id": "toolu_019YRRiFrR8jWXka1dg5wzTq"
+    },
+    {
+      "ts": 1788879532.6249456,
+      "role": "editor",
+      "kind": "tool_call",
+      "name": "pick",
+      "args": {
+        "id": 70,
+        "persona": "industry",
+        "reason": "AI infrastructure at scale: US approves $1.9B loan to restart Iowa nuclear reactor specifically to power Google's AI data centers - shows massive energy demands of AI."
+      },
+      "result_summary": "",
+      "tool_use_id": "toolu_01DQUB5jt8UEndMT4pV6FLje"
+    },
+    {
+      "ts": 1788879532.6249893,
+      "role": "editor",
+      "kind": "tool_result",
+      "name": "pick",
+      "args": null,
+      "result_summary": "{\"ok\": true, \"picked\": \"US regulator approves $1.9 billion loan to spin up Iowa's dead nuclear reactor for Google\", \"persona\": \"industry\", \"pick_count\": 5}",
+      "tool_use_id": "toolu_01DQUB5jt8UEndMT4pV6FLje"
+    },
+    {
+      "ts": 1788879532.6250067,
+      "role": "editor",
+      "kind": "tool_call",
+      "name": "pick",
+      "args": {
+        "id": 64,
+        "persona": "everyday",
+        "reason": "Try-it-today feature: Claude can now send emails for you via Gmail integration. Practical automation that readers can test immediately with built-in safeguards."
+      },
+      "result_summary": "",
+      "tool_use_id": "toolu_019bbcuZUR7V8gyCedJS6KiH"
+    },
+    {
+      "ts": 1788879532.6250436,
+      "role": "editor",
+      "kind": "tool_result",
+      "name": "pick",
+      "args": null,
+      "result_summary": "{\"ok\": true, \"picked\": \"How to let Claude send emails for you\", \"persona\": \"everyday\", \"pick_count\": 6}",
+      "tool_use_id": "toolu_019bbcuZUR7V8gyCedJS6KiH"
+    },
+    {
+      "ts": 1788879539.20132,
+      "role": "editor",
+      "kind": "tool_call",
+      "name": "ship_edition",
+      "args": {},
+      "result_summary": "",
+      "tool_use_id": "toolu_01MAot6sjtQKtHpY4qDL8KSC"
+    },
+    {
+      "ts": 1788879539.8657851,
+      "role": "editor",
+      "kind": "finalize",
+      "name": "",
+      "args": null,
+      "result_summary": "shipped 6 stories",
+      "tool_use_id": ""
+    },
+    {
+      "ts": 1788879539.865813,
+      "role": "editor",
+      "kind": "tool_result",
+      "name": "ship_edition",
+      "args": null,
+      "result_summary": "{\"shipped\": true, \"picks\": {\"pick_1\": \"Mistral raises \\u20ac3B as sovereign AI becomes big business\", \"pick_2\": \"Qualcomm Signs Deal to Provide Amazon With Custom AI Chips\", \"pick_3\": \"AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome\", \"pick_4\": \"AI Startup Runway Hits $200 Million in Annual Recurring Revenue\", \"pick_5\": \"US regulator approves $1.9 billion loan to spin up Iowa's dead nuclear reactor for Google\", \"pick_6\": \"How to let Claude send emails for you\"}}",
+      "tool_use_id": "toolu_01MAot6sjtQKtHpY4qDL8KSC"
+    }
+  ],
+  "issue_num": 84
+}
